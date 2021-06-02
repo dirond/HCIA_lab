@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.3.00.100">
+    <devices>
+        <dev id="BE0BCCE0-7498-46cd-8D3B-CEFA973418F2" name="GW1" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-DB-19-42" com_port="2004" bootmode="0" cx="174.000000" cy="318.000000" edit_left="200" edit_top="369">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="907552F4-04DE-4ccc-A058-4C7CFE99D5F3" name="GW2" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-2C-68-9B" com_port="2005" bootmode="0" cx="782.000000" cy="328.000000" edit_left="809" edit_top="382">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="F8E9C0B8-5411-4368-8697-99625E1F5E1F" name="SW1" poe="0" model="S3700" settings="" system_mac="4C-1F-CC-BB-34-79" com_port="2000" bootmode="0" cx="281.000000" cy="162.000000" edit_left="303" edit_top="148">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="22" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="E1CA7A58-AC3D-4255-AEC0-3068ED76218D" name="SW2" poe="0" model="S3700" settings="" system_mac="4C-1F-CC-DA-56-B6" com_port="2001" bootmode="0" cx="675.000000" cy="157.000000" edit_left="698" edit_top="144">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="22" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="A7E1C421-8ECD-4907-B89D-97872E88DA72" name="SW3" poe="0" model="S3700" settings="" system_mac="4C-1F-CC-C9-35-DC" com_port="2002" bootmode="0" cx="405.000000" cy="323.000000" edit_left="432" edit_top="377">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="22" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="0EEEFDA1-CCD1-4ebb-9430-6684DA599433" name="SW4" poe="0" model="S3700" settings="" system_mac="4C-1F-CC-EF-58-C5" com_port="2003" bootmode="0" cx="547.000000" cy="324.000000" edit_left="574" edit_top="378">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="22" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="F8E9C0B8-5411-4368-8697-99625E1F5E1F" destDeviceID="E1CA7A58-AC3D-4255-AEC0-3068ED76218D">
+            <interfacePair lineName="Copper" srcIndex="22" srcBoundRectIsMoved="1" srcBoundRect_X="351.180298" srcBoundRect_Y="188.452026" srcOffset_X="-16.000000" srcOffset_Y="-22.000000" tarIndex="22" tarBoundRectIsMoved="1" tarBoundRect_X="658.819702" tarBoundRect_Y="184.547974" tarOffset_X="-31.000000" tarOffset_Y="-20.000000" />
+        </line>
+        <line srcDeviceID="F8E9C0B8-5411-4368-8697-99625E1F5E1F" destDeviceID="BE0BCCE0-7498-46cd-8D3B-CEFA973418F2">
+            <interfacePair lineName="Copper" srcIndex="23" srcBoundRectIsMoved="1" srcBoundRect_X="283.573914" srcBoundRect_Y="224.611862" srcOffset_X="-46.000000" srcOffset_Y="-16.000000" tarIndex="2" tarBoundRectIsMoved="1" tarBoundRect_X="225.426086" tarBoundRect_Y="309.388153" tarOffset_X="-40.000000" tarOffset_Y="-20.000000" />
+        </line>
+        <line srcDeviceID="E1CA7A58-AC3D-4255-AEC0-3068ED76218D" destDeviceID="907552F4-04DE-4ccc-A058-4C7CFE99D5F3">
+            <interfacePair lineName="Copper" srcIndex="23" srcBoundRectIsMoved="1" srcBoundRect_X="724.906616" srcBoundRect_Y="220.607727" srcOffset_X="14.000000" srcOffset_Y="-11.000000" tarIndex="2" tarBoundRectIsMoved="1" tarBoundRect_X="786.093384" tarBoundRect_Y="318.392273" tarOffset_X="2.000000" tarOffset_Y="-18.000000" />
+        </line>
+        <line srcDeviceID="F8E9C0B8-5411-4368-8697-99625E1F5E1F" destDeviceID="A7E1C421-8ECD-4907-B89D-97872E88DA72">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="1" srcBoundRect_X="334.350128" srcBoundRect_Y="223.212677" srcOffset_X="13.000000" srcOffset_Y="-4.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="405.649872" tarBoundRect_Y="315.787323" tarOffset_X="10.000000" tarOffset_Y="-10.000000" />
+        </line>
+        <line srcDeviceID="0EEEFDA1-CCD1-4ebb-9430-6684DA599433" destDeviceID="E1CA7A58-AC3D-4255-AEC0-3068ED76218D">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="1" srcBoundRect_X="600.270081" srcBoundRect_Y="316.725800" srcOffset_X="-79.000000" srcOffset_Y="-13.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="675.729919" tarBoundRect_Y="218.274216" tarOffset_X="-84.000000" tarOffset_Y="-4.000000" />
+        </line>
+    </lines>
+    <shapes>
+        <shape type="2" filloption="0" color="16711808" upleftcorner="361,286" width="276" height="180" startpt="0,0" endpt="0,0" borderStyle="1" borderWidth="1" />
+        <shape type="2" filloption="0" color="16711808" upleftcorner="737,281" width="158" height="153" startpt="0,0" endpt="0,0" borderStyle="1" borderWidth="1" />
+        <shape type="2" filloption="0" color="16711808" upleftcorner="150,278" width="144" height="156" startpt="0,0" endpt="0,0" borderStyle="1" borderWidth="1" />
+    </shapes>
+    <txttips>
+        <txttip left="198" top="411" right="240" bottom="428" content="VLAN2" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="475" top="426" right="517" bottom="443" content="VLAN3" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="791" top="412" right="840" bottom="429" content="VLAN10" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="340" top="18" right="669" bottom="35" content="Lab4. Ethernet basic and VLAN configuration" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="28" top="61" right="357" bottom="78" content="SW3 and SW4 simulating the end user devices" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="28" top="82" right="576" bottom="99" content="interface between SW1 and SW2 have a trunk type with permitted VID = 2,3" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+    </txttips>
+</topo>

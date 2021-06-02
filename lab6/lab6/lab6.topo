@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.3.00.100">
+    <devices>
+        <dev id="7F85DD61-9F44-449a-8DF6-F704ABA2C950" name="SW1" poe="0" model="S3700" settings="" system_mac="4C-1F-CC-FA-21-DE" com_port="2000" bootmode="0" cx="207.000000" cy="188.000000" edit_left="234" edit_top="242">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="22" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="78F93028-8187-4def-A338-E7FF67F0D13D" name="SW2" poe="0" model="S3700" settings="" system_mac="4C-1F-CC-B1-05-75" com_port="2001" bootmode="0" cx="616.000000" cy="191.000000" edit_left="643" edit_top="245">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="22" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="7F85DD61-9F44-449a-8DF6-F704ABA2C950" destDeviceID="78F93028-8187-4def-A338-E7FF67F0D13D">
+            <interfacePair lineName="Copper" srcIndex="9" srcBoundRectIsMoved="0" srcBoundRect_X="277.182617" srcBoundRect_Y="215.316742" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="9" tarBoundRectIsMoved="1" tarBoundRect_X="599.817383" tarBoundRect_Y="217.683258" tarOffset_X="68.000000" tarOffset_Y="-2.000000" />
+            <interfacePair lineName="Copper" srcIndex="10" srcBoundRectIsMoved="0" srcBoundRect_X="285.182617" srcBoundRect_Y="207.316742" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="10" tarBoundRectIsMoved="1" tarBoundRect_X="607.817383" tarBoundRect_Y="209.683258" tarOffset_X="60.000000" tarOffset_Y="-6.000000" />
+            <interfacePair lineName="Copper" srcIndex="11" srcBoundRectIsMoved="0" srcBoundRect_X="269.182617" srcBoundRect_Y="223.316742" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="11" tarBoundRectIsMoved="1" tarBoundRect_X="591.817383" tarBoundRect_Y="225.683258" tarOffset_X="75.000000" tarOffset_Y="3.000000" />
+        </line>
+    </lines>
+    <shapes />
+    <txttips>
+        <txttip left="385" top="30" right="510" bottom="62" content="Lab 6.&#x0D;&#x0A;Link agreagation" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="215" top="151" right="483" bottom="168" content="SW1 as an actor on current topology" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+    </txttips>
+</topo>
