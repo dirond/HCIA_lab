@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.3.00.100">
+    <devices>
+        <dev id="CDA57B5A-B300-4364-8DE5-8AA9B077BCB1" name="AR1" poe="0" model="AR1220" settings="" system_mac="00-E0-FC-C1-03-AF" com_port="2000" bootmode="0" cx="310.000000" cy="239.000000" edit_left="337" edit_top="293">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+                <interface sztype="Ethernet" interfacename="Ethernet" count="8" />
+            </slot>
+        </dev>
+    </devices>
+    <lines />
+    <shapes />
+    <txttips>
+        <txttip left="231" top="25" right="492" bottom="57" content="Lab #1&#x0D;&#x0A;Huawei VRP and configuration basic" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="234" top="97" right="819" bottom="161" content="Configuration roadmap:&#x0D;&#x0A;1. Complete basic configuration such as device name and interface IP address&#x0D;&#x0A;2. Save the configurations&#x0D;&#x0A;3. Restart the device" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+    </txttips>
+</topo>
